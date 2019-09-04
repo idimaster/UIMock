@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "ES6",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "build/ts/",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": false
+  },
+  "exclude": [
+    ".c9",
+    "node_modules",
+    "dist"
+  ]
+}

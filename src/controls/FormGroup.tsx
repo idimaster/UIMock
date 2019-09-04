@@ -1,0 +1,20 @@
+import * as React from 'react'
+
+export class FormGroup extends React.Component< {label:string}, any > { 
+    static propTypes() {
+        return {
+            label: React.PropTypes.string
+        }
+    }
+    
+    render(): React.ReactElement< any > { 
+        return <div className="form-group required">
+            <label className="col-sm-2 control-label">{this.props.label}</label>
+            <div className="col-sm-6">
+                {this.props.children}
+            </div>
+            <div className="col-sm-4">
+            </div>
+        </div>
+    } 
+}
